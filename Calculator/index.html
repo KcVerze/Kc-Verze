@@ -21,26 +21,26 @@
     <input type="text"  id="screen" disabled>
     <div class="buttons">
         <div class="main_keys">
-            <button class="white_keys" onclick="toScreen('7')" >7</button>
-            <button class="white_keys">8</button>
-            <button class="white_keys">9</button>
-            <button class="white_keys">DEL</button>
-            <button class="white_keys">4</button>
-            <button class="white_keys">5</button>
-            <button class="white_keys">6</button>
-            <button class="white_keys">+</button>
-            <button class="white_keys">1</button>
-            <button class="white_keys">2</button>
-            <button class="white_keys">3</button>
-            <button class="white_keys">-</button>
-            <button class="white_keys">.</button>
-            <button class="white_keys">0</button>
-            <button class="white_keys">/</button>
-            <button class="white_keys">*</button>
+            <button class="white_keys" onclick="ToScreen('7')" >7</button>
+            <button class="white_keys" onclick="ToScreen('8')" >8</button>
+            <button class="white_keys" onclick="ToScreen('9')">9</button>
+            <button class="white_keys" onclick="ToScreen('%')" >%</button>
+            <button class="white_keys" onclick="ToScreen('4')" >4</button>
+            <button class="white_keys" onclick="ToScreen('5')" >5</button>
+            <button class="white_keys" onclick="ToScreen('6')" >6</button>
+            <button class="white_keys" onclick="ToScreen('+')" >+</button>
+            <button class="white_keys" onclick="ToScreen('1')" >1</button>
+            <button class="white_keys" onclick="ToScreen('2')" >2</button>
+            <button class="white_keys" onclick="ToScreen('3')" >3</button>
+            <button class="white_keys" onclick="ToScreen('-')" >-</button>
+            <button class="white_keys" onclick="ToScreen('.')" >.</button>
+            <button class="white_keys" onclick="ToScreen('0')" >0</button>
+            <button class="white_keys" onclick="ToScreen('/')" >/</button>
+            <button class="white_keys" onclick="ToScreen('*')" >*</button>
         </div>
         <div class="sub_keys">
-            <button class="left sub " >RESET</button>
-            <button class="right sub" >=</button>
+            <button class="left sub " onclick="clearScreen()">RESET</button>
+            <button class="right sub" onclick="equal()" >=</button>
         </div>
     </div>
     </div>
