@@ -44,9 +44,7 @@ function darkMd() {
         display.style.background = 'white';
         display.style.color = 'black';
         logo.style.color = 'white';
-        modeIcon.style.background = 'white';
-        modeIcon.textContent = 'dark_mode';
-        modeIcon.style.color = 'black';
+        modeIcon.textContent = 'light_mode';
         modeIcon.classList.remove('light_mode');
         modeIcon.classList.add('dark_mode');
         
@@ -57,9 +55,7 @@ function darkMd() {
         display.style.background = 'black';
         display.style.color = 'white';
         logo.style.color = 'black';
-         modeIcon.style.background = 'black';
-        modeIcon.textContent = 'light_mode';
-        modeIcon.style.color = 'white';
+        modeIcon.textContent = 'dark_mode';
         modeIcon.classList.remove('dark_mode');
         modeIcon.classList.add('light_mode');
     }

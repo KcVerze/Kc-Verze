@@ -31,21 +31,13 @@ body {
 }
 
 
- .material-symbols-outlined {
-    font-family: 'Material Symbols Outlined';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    direction: ltr;
-    font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
- }
-
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+}
 .light_mode {
     color: white;
     padding: 7px;
@@ -60,19 +52,26 @@ body {
 }
 
 .dark_mode{
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 7px;
-    background: rgb(18, 18, 18);
+    background: rgb(255, 255, 255);
     border-radius: 20px;
     font-size: 20px;
+    
 }
 
 .dark_mode:hover {
     background: red;
     cursor: pointer;
 }
-/* screen */
 
+.toggle {
+    border-radius: 20px;
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+/* screen */
 #screen {
     width: 300px;
     height: 50px;
@@ -114,12 +113,7 @@ button.white_keys:hover {
     gap: 10px;
 }
 
-.toggle {
-    background-color: transparent;
-    border-radius: 20px;
-    padding: 4px;
-    transition: background 0.3s ease;
-}
+
 
 button.sub {
     padding: 20px;
