@@ -47,7 +47,7 @@ function darkMd() {
         modeIcon.textContent = 'light_mode';
         modeIcon.classList.remove('light_mode');
         modeIcon.classList.add('dark_mode');
-        
+         
 
     } else {
         // Switch to Light Mode
