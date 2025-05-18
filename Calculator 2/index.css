@@ -15,7 +15,7 @@ body {
 
 #calculator{
     padding: 20px;
-    background: #fff;
+    background: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
@@ -60,7 +60,7 @@ body {
     padding: 10px;
     border: none;
     outline: none;
-    background: #000000;
+    background-color: #000000;
     color: white;
     margin-bottom: 25px;
     border-radius: 5px;

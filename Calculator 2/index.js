@@ -19,3 +19,19 @@ function equal() {
         document.getElementById('screen').value = 'Error';
     }
 }
+
+//the dark light mode
+
+
+
+function darkMd() {
+    const calculator = document.getElementById('calculator');
+    const bgClr = window.getComputedStyle(calculator).backgroundColor;
+    
+
+    if (bgClr === 'rgb(255, 255, 255)') { // white in RGB
+        calculator.style.background = 'black';
+    } else {
+        calculator.style.background = 'white';
+    }
+}
